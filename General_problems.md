@@ -15,7 +15,7 @@
 [مربوط به کلید num lk ](https://answers.microsoft.com/en-us/windows/forum/all/strange-keyboard-problem-strange-2eyb6ard-r6b3e0/16ebe691-0182-4f84-9cdc-b5de4a1ac126)
 
 
-۲. **در هنگام پوش کردن به گیت لب  که فیلتر هست به ارور  `fatal: unable to access 'https://gitlab.com/*****/project-dic.git/': The requested URL returned error: 403` برخوردم.**
+۳. **در هنگام پوش کردن به گیت لب  که فیلتر هست به ارور  `fatal: unable to access 'https://gitlab.com/*****/project-dic.git/': The requested URL returned error: 403` برخوردم.**
 
 برای حلش طبق راهنمایی [این](https://roocket.ir/discuss/%D8%A7%D8%B1%D9%88%D8%B1-%D9%87%D9%86%DA%AF%D8%A7%D9%85-push-%DA%A9%D8%B1%D8%AF%D9%86-%D8%A8%D9%87-%DA%AF%DB%8C%D8%AA-%D9%84%D8%A8#subject-52405) سایت پیش رفتم:
 
@@ -45,3 +45,7 @@ git config --global --list
 git config --global --edit
 ```
 خط های اضافه رو پاک می کنم  و بعدش با کنترل اس ذخیره می کنم و با کنترل ایکس میام بیرون.
+
+
+
+
