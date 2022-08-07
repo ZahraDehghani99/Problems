@@ -9,3 +9,16 @@
  
  در کراس اگر ما gpu رو فعال داشته باشیم به صورت اوتوماتیک و پیش فرض از gpuاستفاده میشه و نیازی به تعریف device نیست.
 
+## Mount google drive in colab
+
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+## Unmount google drive in colab
+
+```
+from google.colab import drive
+drive.flush_and_unmount()
+```
