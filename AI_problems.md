@@ -22,3 +22,10 @@ drive.mount('/content/drive')
 from google.colab import drive
 drive.flush_and_unmount()
 ```
+
+## login to huggingface hub
+```
+from huggingface_hub import notebook_login
+notebook_login()
+```
+وقتی این دستور را زدیم باید بریم توی اکانتمون در hugging face در قسمت settings در قسمت access token کپی می‌کنیم توکن را.
