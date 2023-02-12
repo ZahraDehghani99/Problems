@@ -29,3 +29,9 @@ from huggingface_hub import notebook_login
 notebook_login()
 ```
 وقتی این دستور را زدیم باید بریم توی اکانتمون در hugging face در قسمت settings در قسمت access token کپی می‌کنیم توکن را.
+این دستوری که در بالا گفته شد برای کار با google colaboratory یا jupyter notebook است. اگر بخواهیم از vscode notebook استفاده کنیم باید در ترمینال دستور زیر را بزنیم و اینطوری لاگین کنیم:
+
+‍‍‍
+```
+huggingface-cli login
+```
