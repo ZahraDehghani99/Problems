@@ -35,3 +35,6 @@ notebook_login()
 ```
 huggingface-cli login
 ```
+
+## Upload dataset to the hugging face using python
+https://huggingface.co/docs/datasets/upload_dataset#upload-with-python
