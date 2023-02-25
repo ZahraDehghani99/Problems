@@ -38,3 +38,7 @@ huggingface-cli login
 
 ## Upload dataset to the hugging face using python
 https://huggingface.co/docs/datasets/upload_dataset#upload-with-python
+
+
+## Embedding image in google colab markdwon
+First you should upload your images in google drive. more information in [this](https://medium.com/analytics-vidhya/embedding-your-image-in-google-colab-markdown-3998d5ac2684) link.
