@@ -57,3 +57,18 @@ I found no \bibdata command BibTex [Ln 1, Col 1]
 \usepackage{perpage}
 \MakePerPage[1]{footnote}
 ```
+۶) برای اضافه کردن یک بخشی به فهرست از دستور زیر استفاده میشود. برای مثال مراجع جزو فصل های پایان نامه نیست ولی دوست داریم در فهرست نمایش داده بشه یا هر قسمت دیگه ای، بعد از تعریف اون قسمت بلافاصله دستور زیر باید نوشته شود:
+
+```
+\addcontentsline{toc}{chapter}{کتاب‌نامه}
+```
+به عبارت دیگر برای کتاب نامه باید کد بالا را در ادامه تعریف صفحه کتاب نامه بیاوریم که به صورت زیر میشه:
+
+```
+\begin{latin} 
+\newpage
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+\end{latin}
+\addcontentsline{toc}{chapter}{کتاب‌نامه}
+```
