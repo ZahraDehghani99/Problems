@@ -72,3 +72,5 @@ I found no \bibdata command BibTex [Ln 1, Col 1]
 \end{latin}
 \addcontentsline{toc}{chapter}{کتاب‌نامه}
 ```
+
+۷) [این](https://www.overleaf.com/learn/latex/Sections_and_chapters) سایت در مورد section بندی و اینا خوب توضیح داده که هر levelای از section بندی چه دستوری دارد.
