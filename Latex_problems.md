@@ -74,3 +74,5 @@ I found no \bibdata command BibTex [Ln 1, Col 1]
 ```
 
 ۷) [این](https://www.overleaf.com/learn/latex/Sections_and_chapters) سایت در مورد section بندی و اینا خوب توضیح داده که هر levelای از section بندی چه دستوری دارد.
+
+۸) اگر به این مشکل خوردید که در یک عکسی کپشن دادید و رفرنسی که در کپشن اومده از یک شروع شده باید از راه زیر رفت. به عبارت دیگر، اگر یک رفرنسی، رفرنس شماره ی ۸ شما باشه و یک عکسی رو به اون رفرنس بدید ولی شماره اون رفرنس توی عکس یه چیز دیگه باشه باید از پکیج `notoccite`‍ بعد از پکیج `xepersian` استفاده شود. برای اطلاعات بیشتر به [این](https://tex.stackexchange.com/questions/224984/when-citing-inside-caption-it-starts-at-number-one) سایت مراجعه شود.
