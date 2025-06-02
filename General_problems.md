@@ -78,3 +78,33 @@ https://support.mozilla.org/en-US/kb/use-troubleshooting-information-page-fix-fi
 
 بر اساس این سایت عمل کنیم:
 https://support.mozilla.org/gl/questions/1349800
+۷. **چطوری anydesk  رو در ubuntu نصب کنیم؟**
+
+برای نصب anydesk باید طبق دستورات زیر پیش بریم. اول طبق روش دوم در این سایت پیش میریم : https://www.geeksforgeeks.org/how-to-install-anydesk-on-ubuntu/
+بعدش طبق زیر پیش میریم:
+‍‍‍
+```
+ls /usr/share/applications/anydesk.desktop # Check for the AnyDesk .desktop file
+sudo update-desktop-database
+gedit ~/.local/share/applications/anydesk.desktop
+
+```
+After that paste the following value in the popup editor:
+
+```
+[Desktop Entry]
+Name=AnyDesk
+Comment=Remote Desktop Application
+Exec=anydesk
+Icon=anydesk
+Terminal=false
+Type=Application
+Categories=Network;RemoteAccess;
+```
+
+Save the file and make it executable by:
+```
+chmod +x ~/.local/share/applications/anydesk.desktop
+```
+Then you can see the anydesk icon in your application list. The next step is to log out your system. In the log in page, you should select `ubuntu on xrog` , otherwise you will get error when you are trying to connet to your ubuntu system using other systems. That's it. Enjoy learning!
+‍‍‍
